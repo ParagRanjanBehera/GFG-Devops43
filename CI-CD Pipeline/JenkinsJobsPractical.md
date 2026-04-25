@@ -1,6 +1,6 @@
 # Jenkins CI-CD Pipeline Project
 
-* Repo Used in the session - https://github.com/sudhanshuvlog/SampleFlaskApp-Devops37.git
+* Repo Used in the session - https://github.com/sudhanshuvlog/GFG43-Python-FlaskApp
 
 ## Job1-TestApp
 
