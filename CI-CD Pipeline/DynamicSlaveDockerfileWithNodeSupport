@@ -9,7 +9,6 @@ RUN yum -y update && \
         shadow-utils \
         python3 \
         unzip \
-        curl \
         sudo \
         tar \
         gzip \
