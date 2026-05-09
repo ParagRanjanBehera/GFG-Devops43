@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gfgdeployment40
+  labels:
+    app: pythongfg40
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pythongfg40
+  template:
+    metadata:
+      name: gfgapp
+      labels:
+        app: pythongfg40
+    spec:
+      containers:
+      - name: gfg
+        image: jinny1/sampleappdevops40
+        ports:
+        - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: gfg-service-40
+spec:
+  selector:
+    app: pythongfg40
+  ports:
+    - protocol: TCP
+      port: 80
+  type: NodePort

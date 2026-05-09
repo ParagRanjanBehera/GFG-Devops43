@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mygfgpod
+  labels:
+    team: alpha
+    dc: mumbai
+spec: 
+  containers:
+  - name: gfg
+    image: httpd
+    ports:
+    - containerPort: 80
