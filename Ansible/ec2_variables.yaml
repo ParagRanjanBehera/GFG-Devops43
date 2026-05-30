@@ -1,0 +1,8 @@
+region: ap-south-1
+security_group: default
+instance_type: t2.micro
+name: Ansible-ec2-servers
+key_name: keypair-30may
+image_id: ami-0685bcc683dadb6b9
+vpc_subnet_id: subnet-04c1ed6ba9c55ffd7
+count: 1
