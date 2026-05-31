@@ -11,3 +11,4 @@
 * K8s MERN App Development - https://github.com/sudhanshuvlog/K8s-MERN-App-Deployment/tree/main
 * Movie Streaming Application Devops - https://github.com/sudhanshuvlog/Movie-Streaming-App-DevOps
 * Multi User Chat Application Devops - https://github.com/sudhanshuvlog/Multi-User-ChatApp-Devops
+* K8s Multi Node Cluster Configuration With Ansible - https://github.com/sudhanshuvlog/kubernetes-multinode-cluster-ansible-aws/tree/main
