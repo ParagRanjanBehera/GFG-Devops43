@@ -37,5 +37,11 @@ variable "route_table_allowed_cidr_block" {
 variable "allowed_ingress_ports" {
   description = "List of allowed ingress ports for the security group"
   type        = list(number)
-  default     = [80, 81, 22, 443, 8080, 6243, 3306, 5432, 9090, 9000, 6379, 27017, 9200, 9300]
+  default     = [80, 81, 22, 443, 8080, 6243, 3306, 5432, 9090, 9000, 6379, 27017, 9200, 9300, 9100, 3000, 9323]
+}
+
+variable "bucket" {
+  description = "The name of the S3 bucket to create"
+  type        = string
+  default     = "gfg-terraform-bucket"
 }
